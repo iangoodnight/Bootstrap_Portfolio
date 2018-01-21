@@ -6,7 +6,8 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
   /* Visual */
-  background-image: url("../imgs/ignasi_pattern_s.png");
+  background-color: #E7DEDE;
+  background-image: url("../images/square_bg.png");
 }
 
 html {
@@ -20,7 +21,7 @@ html {
 /* ---------NAV START---------- */
 
 .navbar-custom {
-  background-color: #fff;
+  background-color: #FEF9F8;
 }
 
 #logo {
@@ -30,16 +31,16 @@ html {
   padding-bottom: 5px;
 
   /* Positioning */
-  margin-left: 70px;
+  margin-left: 0px;
   font-family: Georgia, Times, "Times New Roman", serif;
 
   /* Typography */
   font-size: 24px;
   font-weight: bold;
-  color: #fff;
+  color: #FEF9F8;
 
   /* Visual */
-  background: #4aaaa5;
+  background: #1C8D99;
 }
 
 .navbar-right-custom {
@@ -56,6 +57,14 @@ html {
   color: #4aaaa5;
 }
 
+.navbar-brand {
+  padding: 15px 30px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #1C8D99;
+}
+
 /* --------NAV END---------- */
 
 .about-me-header {
@@ -66,7 +75,7 @@ html {
   /* Typography */
   font-size: 32px;
   font-weight: bold;
-  color: #4aaaa5;
+  color: #1C8D99;
 }
 
 .about-me-content {
@@ -78,7 +87,7 @@ html {
   margin-top: 32px;
 
   /* Visual */
-  background-color: #fff;
+  background-color: #FEF9F8;
 }
 
 .about-me-content > p {
@@ -88,7 +97,7 @@ html {
   /* Typography */
   font-size: 16px;
   line-height: 30px;
-  color: #bbc;
+  color: #1F6981;
 }
 
 #nate-image {
@@ -118,7 +127,7 @@ html {
   margin-top: 32px;
 
   /* Visual */
-  background-color: #fff;
+  background-color: #FEF9F8;
 }
 
 .connect-with-me-header {
@@ -129,7 +138,7 @@ html {
   /* Typography */
   font-size: 25px;
   font-weight: bold;
-  color: #4aaaa5;
+  color: #1C8D99;
 }
 
 .connect-with-me-photo {
@@ -168,7 +177,7 @@ html {
   margin-top: 15px;
 
   /* Typography */
-  color: #fff;
+  color: #E7DEDE;
 }
 
 .two-toned-footer-color {
@@ -177,7 +186,7 @@ html {
   padding-top: 3px;
 
   /* Visual */
-  background-color: #4aaaa5;
+  background-color: #1C8D99;
 }
 
 /* ----------------- */
@@ -196,7 +205,7 @@ html {
   margin-top: 30px;
 
   /* Visual */
-  background-color: #fff;
+  background-color: #FEF9F8;
 }
 
 .contact-form-header,
@@ -208,7 +217,7 @@ html {
   /* Typography */
   font-size: 32px;
   font-weight: bold;
-  color: #4aaaa5;
+  color: #1C8D99;
 }
 
 #name_input,
@@ -237,7 +246,7 @@ html {
 .label-mail {
   /* Typography */
   font-size: 17px;
-  color: #bbc;
+  color: #1C8D99;
 }
 
 .contact-hr {
@@ -251,7 +260,7 @@ html {
   font-weight: lighter;
 
   /* Typography */
-  color: #fff;
+  color: #FEF9F8;
 
   /* Visual */
   background-color: #4aaaa5;
@@ -276,7 +285,7 @@ html {
   margin-bottom: 200px;
 
   /* Visual */
-  background-color: #fff;
+  background-color: #FEF9F8;
 }
 
 .port-hr {
